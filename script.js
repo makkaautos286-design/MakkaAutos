@@ -121,7 +121,7 @@ function sendFooterMessage(event) {
     var dateTime = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
     
     // WhatsApp message banate hain
-    var whatsappMessage = "*Hi I am Coming From Your Website*%0A%0A" +
+    var whatsappMessage = "*Hi I am Coming From Your Website*%0A%0A*" +
                           "*Message:*%0A" + message + "%0A%0A" +
                           "*Date/Time:* " + dateTime;
     
